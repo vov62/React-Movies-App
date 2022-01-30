@@ -1,0 +1,25 @@
+.movie-card{
+    padding: 15px;
+}
+.movie-card img{
+    width: 250px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .MuiBox-root.css-pxogjd{
+        width: 300px;
+        padding: 10px;
+    }
+    .MuiBox-root.css-pxogjd>img{
+        width: 100px;
+    
+    }
+    .movie-card{
+        padding: 20px;
+    }
+    .movie-card img{
+        width: 150px;
+    }
+}

@@ -1,0 +1,42 @@
+.navBarLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    }
+    
+    .nav-logo h3 {
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #fff;
+    text-decoration: none;
+    font-size:50px;
+    }
+    
+    .navBarLink li{
+        display: inline-block;
+        list-style: none;
+        padding: 0px 16px;
+    }
+    
+    .navBarLink a{
+        text-decoration: none;
+        font-size: 22px;
+        transition: all 0.3s ease 0s;
+        color: chocolate;
+    }
+    .navBarLink ul > li > a:hover{
+        color: #fff;
+        text-shadow: 2px 3px 4px blue;
+    }
+
+    @media only screen and (max-width: 900px){
+        .navBarLink nav ul li {
+            display: none;
+        }
+        .navBarLink{
+            justify-content: center;
+            font-size: 30px;
+        }
+
+    }

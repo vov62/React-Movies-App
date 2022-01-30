@@ -1,0 +1,25 @@
+
+.movieContainer{
+   margin: 0 auto;
+   text-align: center;
+}
+.moviesCarousel{
+      padding: 20px;
+      margin: 30px;
+}
+.movieProps{
+       text-align: center;
+}
+.movieProps img{
+     box-shadow: 3px 3px 4px rgb(146, 145, 145);
+     max-width: 100%;
+}
+.movieProps img:hover{
+        opacity: 0.7;
+        transition: all 0.3s ease ;
+        cursor: pointer;   
+}
+.movieInfo{
+        padding: 10px;
+}
+
