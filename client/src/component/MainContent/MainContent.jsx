@@ -12,7 +12,7 @@ export default function MainContent() {
     const moviesDisplay = async () => {
         try {
             setIsLoading(true);
-            const api_url = 'http://localhost:4000/movies';
+            const api_url = `http://localhost:4000/movies`;
             await fetch(api_url)
                 .then(res => res.json())
                 .then(results => {
