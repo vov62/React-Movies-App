@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Loading from '../Loading';
 import MovieCard from '../MovieCard/MovieCard';
@@ -24,7 +24,7 @@ export default function SearchBar(props) {
     const handleSubmit = (e) => {
         if (query !== '') {
             movieSearch(
-                `http://localhost:5000/movie/${query}`
+                `http://localhost:4000/movie/${query}`
             )
             setQuery('')
         }

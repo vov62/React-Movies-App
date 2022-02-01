@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const express = require('express');
 const app = express();
-const PORT = process.env.React_App_PORT || 4000;
+const PORT = process.env.PORT || 4000;
 const fetch = require('node-fetch');
 const cors = require('cors');
 const bodyParser = require('body-parser');
